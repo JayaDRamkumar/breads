@@ -17,14 +17,3 @@ function Default(html) {
 }
 
 module.exports = Default
-// GOOD:
-return (
-
-    )
-  
-  // BAD: returns null or undefined
-  return
-  (
-  
-  )
-  
