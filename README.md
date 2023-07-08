@@ -23,3 +23,28 @@ Places:
 |name (string) | city (string) | state (string) | cuisines (string) | pic (string)
 |--------------|---------------|----------------|-------------------|-----------------
 |              |               |                |                   |
+
+places:
+
+Field	  |Type      |
+|---------|----------|
+_id	      |Object ID |
+name	  |String    |
+city	  |String    |
+state	  |String    |
+cuisines  |String    |
+pic       |String	 |
+|---------|----------|
+
+
+rants:
+
+Field	  |Type                   |
+|---------|-----------------------|
+_id	      |Object ID              |
+place_id  |	ref(places) Object_Id |
+rant	  |Boolean                |
+rating    |	Number                |
+comment	  |String                 |
+reviewer  |String                 |
+|---------|-----------------------|
